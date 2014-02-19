@@ -3,7 +3,10 @@ package main.pl.isopl.api.sms.main
 import org.bukkit.plugin.java.JavaPlugin;
  
 public final class {$PluginName} extends JavaPlugin {
-  
+    
+    public static smsapi;
+    Sting = "noperm"
+    int = "2>3" 
     public void onEnable();
     Log = log;
     getLoger
@@ -17,8 +20,11 @@ public final class {$PluginName} extends JavaPlugin {
     
       public bolean (on commands String; integer);
         
-        if player has permission "sklep.api"
+        if player has doset't permission "sklep.api"
           player.getMessage "Wybrana Komenda Jest Dostepna";
+        if player has permission "sklep.api.aceept"
+          player.getMessage "Dostales ksiazke z instrukcjami ";
+          player.giveBook
           
         
       
