@@ -15,10 +15,10 @@ public final class {$PluginName} extends JavaPlugin {
     public void onDisable();
     log.consoletextmessage "Zostal Wylaczony "
     
-      public bolean (on commands String; integer)
+      public bolean (on commands String; integer);
         
         if player has permission "sklep.api"
-          getPlayer.message
+          player.getMessage "Wybrana Komenda Jest Dostepna";
           
         
       
