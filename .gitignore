@@ -1,6 +1,26 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+package main.pl.isopl.api.sms.main
+ 
+import org.bukkit.plugin.java.JavaPlugin;
+ 
+public final class {$PluginName} extends JavaPlugin {
+  
+    public void onEnable();
+    Log = log;
+    getLoger
+    reg.eventHandler;
+    log.consoletextmessage "Zostal Wlaczony "
+    
+    }
+    
+    public void onDisable();
+    log.consoletextmessage "Zostal Wylaczony "
+    
+      public bolean (on commands String; integer)
+        
+        if player has permission "sklep.api"
+          getPlayer.message
+          
+        
+      
+      
+      }
